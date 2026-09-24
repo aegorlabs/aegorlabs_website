@@ -43,6 +43,7 @@ export default function Layout({ children }: { children: ReactNode }) {
                 )}
               </div>
 
+              <Link to="/case-studies" className="text-slate-600 hover:text-blue-700 text-sm font-medium transition-colors">Case Studies</Link>
               <Link to="/about" className="text-slate-600 hover:text-blue-700 text-sm font-medium transition-colors">About</Link>
               <Link to="/contact" className="bg-blue-700 hover:bg-blue-800 text-white px-5 py-2.5 rounded-lg text-sm font-medium transition-colors shadow-sm">Contact Us</Link>
             </div>
@@ -70,6 +71,7 @@ export default function Layout({ children }: { children: ReactNode }) {
                 <Link onClick={() => setIsMobileMenuOpen(false)} to="/services/blockchain-web3" className="block px-3 py-2 text-base font-medium text-slate-700 hover:text-blue-700 hover:bg-slate-50 rounded-md">Blockchain & Web3</Link>
                 <Link onClick={() => setIsMobileMenuOpen(false)} to="/services/custom-software" className="block px-3 py-2 text-base font-medium text-slate-700 hover:text-blue-700 hover:bg-slate-50 rounded-md">Custom Software</Link>
               </div>
+              <Link onClick={() => setIsMobileMenuOpen(false)} to="/case-studies" className="block px-3 py-2 text-base font-medium text-slate-700 hover:text-blue-700 hover:bg-slate-50 rounded-md">Case Studies</Link>
               <Link onClick={() => setIsMobileMenuOpen(false)} to="/about" className="block px-3 py-2 text-base font-medium text-slate-700 hover:text-blue-700 hover:bg-slate-50 rounded-md">About</Link>
               <Link onClick={() => setIsMobileMenuOpen(false)} to="/contact" className="block px-3 py-2 text-base font-medium text-blue-700 hover:bg-blue-50 rounded-md">Contact Us</Link>
             </div>

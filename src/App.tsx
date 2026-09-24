@@ -10,6 +10,8 @@ import GenerativeAI from './pages/services/GenerativeAI';
 import BlockchainWeb3 from './pages/services/BlockchainWeb3';
 import CustomSoftware from './pages/services/CustomSoftware';
 
+import CaseStudies from './pages/CaseStudies';
+
 function App() {
   return (
     <Router>
@@ -17,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/services/ai-machine-learning" element={<AIMachineLearning />} />
           <Route path="/services/generative-ai" element={<GenerativeAI />} />
