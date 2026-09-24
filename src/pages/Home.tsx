@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Brain, Cpu, Blocks, Code, ArrowRight, ShieldCheck, Award, Globe, Building2, BarChart3, CheckCircle2 } from 'lucide-react';
+import { Brain, Cpu, Blocks, Code, ArrowRight, ShieldCheck, Award, Globe, Building2, CheckCircle2 } from 'lucide-react';
 import PartnerCarousel from '../components/PartnerCarousel';
 
 export default function Home() {

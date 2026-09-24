@@ -1,4 +1,4 @@
-import { Users, Target, Globe2, Shield, Lightbulb, TrendingUp } from 'lucide-react';
+import { Users, Shield, Lightbulb } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function About() {
